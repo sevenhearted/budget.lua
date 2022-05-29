@@ -18,7 +18,7 @@ Merely running `lua budget.lua` attempts to use the files _expense.lua_ and _inc
 Sometimes you may want to temporarily use other modules to plan hypothetical changes in expenses or incomes.
 Let's try this out now using the included example files, with `lua budget.lua example-expense example-income`.
 Do not include the `.lua` suffix, because we are just giving the names of the modules, not the filenames.
-The expense module is always the first argument, and income the second.  
+The expense module is always the first argument, and income the second.
 Imagine I'm a wizard and I knew exactly how much you make, so you just need to make a new `expense.lua`.
 To use a different income module and the default expense one, you only need to type `lua budget.lua - example-income`.
 
